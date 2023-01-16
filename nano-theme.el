@@ -265,11 +265,11 @@ Defaults to nil."
     (set-face 'speedbar-tag-face                       'nano-face-faded)))
 
 
-(defun nano-theme--bookmark ()
-  "Derive bookmark faces from nano faces."
-  (with-eval-after-load 'bookmark
-    (set-face 'bookmark-menu-heading                  'nano-face-strong)
-    (set-face 'bookmark-menu-bookmark                'nano-face-salient)))
+;; (defun nano-theme--bookmark ()
+;;  "Derive bookmark faces from nano faces."
+;;  (with-eval-after-load 'bookmark
+;;    (set-face 'bookmark-menu-heading                  'nano-face-strong)
+;;    (set-face 'bookmark-menu-bookmark                'nano-face-salient)))
 
 
 (defun nano-theme--message ()
